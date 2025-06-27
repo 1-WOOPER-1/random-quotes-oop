@@ -26,7 +26,7 @@
   border-color: #0b5ed7;
 }
 
-#random-quote-api-btn {
+#random-quote-public-api-btn {
   margin: 1rem;
   background-color: #148c54;
   color: white;
@@ -37,10 +37,27 @@
   padding: 0.6rem;
   transition: 0.2s ease-in-out;
 }
-#random-quote-api-btn:hover {
+#random-quote-public-api-btn:hover {
   color: #148c54;
   background-color: white;
   border-color: #148c54;
+}
+
+#random-quote-own-api-btn {
+  margin: 1rem;
+  background-color: #00c9f0;
+  color: white;
+  border-color: #00c9f0;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 1;
+  padding: 0.6rem;
+  transition: 0.2s ease-in-out;
+}
+#random-quote-api-btn:hover {
+  color: #00c9f0;
+  background-color: white;
+  border-color: #00c9f0;
 }
 
 #favourites-container {
