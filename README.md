@@ -46,7 +46,8 @@ This project consists of client-side Vanilla JavaScript app and a server-side Ex
 ### Run client
 
 1. There is no need to build the client as it already contains.
-1. In the `client/src/config.js` replace http://localhost:3000 with URL assigned to the server API in the step 7. in previous section. For example https://random-quotes-api.com
+1. In the `client/config.js` replace http://localhost:3000 with URL assigned to the server API in the step 7. in previous section. For example https://random-quotes-api.com
+   Note: You could make this change directly on the hosting service or in the project source files (less preferrable).
 1. Host all client files from the `client` subflolder on the public web server.
 1. Get assigned by the hostig provider URL for your client frontend application.
    For example https://random-quotes-frontend.com
