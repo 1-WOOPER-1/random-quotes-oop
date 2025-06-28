@@ -54,7 +54,7 @@
   padding: 0.6rem;
   transition: 0.2s ease-in-out;
 }
-#random-quote-api-btn:hover {
+#random-quote-own-api-btn:hover {
   color: #00c9f0;
   background-color: white;
   border-color: #00c9f0;
